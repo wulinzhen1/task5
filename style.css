@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dedede;
+}
+nav{
+    background-color: lightslategrey;
+    display: block;
+    height: 60px;
+    padding: 0 30px 0 30px;
+    width: auto;
+}
+#logo img{
+    height: 100%;                  //使图片自适应导航栏的高度，这样就不必自己设置图片的宽和高了
+}
+nav ul{
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 12px;
+}
+nav ul li{
+    display: inline-block;//将所有选项变为一行
+height: inherit;
+    margin: 0px 5px;
+}
+nav ul li a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;//取消下划线
+height: 100%;
+    line-height: 60px;//因为导航栏为60px所以讲a标签的行高设为60px就可以居中
+}
+.articles{
+    margin: 20px 0px 20px 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 0px #333333;
+    width: 830px;
+}
+.article_demo{
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 2px 0px #333333;
+    width: 370px;
+    position: absolute;
+    left: 900px;
+    top: 60px;
+}
+.h3color{
+    color: gray;
+}
+.span1{
+    color: gray;
+}
+p{
+    text-indent: 2em;
+}
+article ul{
+    list-style-type: none;
+}
+
+#photo img{
+    width: 120px;
+    height: 120px;
+}
+.father_photo{
+    width: 830px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.son_photo{
+    float: left;
+    border: 1px solid #333333;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    margin: 0 10px 10px 10px;
+}
+table{
+    width: 100%;
+    height: 50px;
+    border-collapse:collapse;
+    border-color: gainsboro;
+}
+table th{
+    text-align: left;
+    background-color: #333333;
+    color: white;
+}
+table #information{
+    background-color: gainsboro;
+}
+#side_bar{
+    padding-left: 15px;
+    border-left: 3px solid gray;
+}
+#form1{
+    position: relative;
+    left: 20px;
+    margin-bottom: 10px;
+}
+#form2{
+    position: relative;
+    left: 52px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#form3{
+    position: relative;
+    left: 20px;
+    margin-bottom: 10px;
+}
+.spans{
+    position: relative;
+    left: 137px;
+    color: gray;
+}
+#form4{
+    position: relative;
+    left: 94px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#form5{
+    position: relative;
+    left: 93px;
+    margin-bottom: 10px;
+}
+#form6{
+    position: relative;
+    left: 92px;
+    margin-bottom: 10px;
+}
+#form7{
+    position: relative;
+    left: 60px;
+}
+#textarea1{
+    position: absolute;
+    height: 50px;
+}
+#submit1{
+    width: 100%;
+    height: 40px;
+    margin-top: 50px;
+    background-color: #1a7ee6;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    font-size: 12px;
+}
